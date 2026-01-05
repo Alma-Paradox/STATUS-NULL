@@ -1,0 +1,13 @@
+name: STATUS:NULL Entry
+description: STATUS:NULL 正式エントリー
+title: "[ENTRY] "
+labels: ["entry"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: 対象URL
+      placeholder: https://example.com
+    validations:
+      required: true
